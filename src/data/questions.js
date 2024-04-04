@@ -5,5 +5,19 @@ export const QUESTIONS = [
     "XYZ mówi, że ma pomysł na świetny biznes i potrzebuje, żebyś zainwestował swoje oszczędności - co robisz?",
     "Jesteś XYZ1 i właśnie wróciłeś ze sklepu z nowym wazonem i XYZ Ci go stłukł wychodząc z łazienki - co mówisz?",
     "Jesteś XYZ1 i właśnie stłukłeś XYZ2 nowy wazon - co mówisz?",
-    "Jesteś XYZ1 i Tobie oraz XYZ2 spodobała się ta sama dziewczyna - co robisz?"
+    "Jesteś XYZ1 i Tobie oraz XYZ2 spodobała się ta sama dziewczyna - co robisz?",
+    "Jesteś XYZ1 i z powodu braku kasy decydujesz się na bycie animatorem i opiekunem na imprezie urodzinowej siedmioletniej dziewczynki. Co mówisz grupie 10 dzieci na starcie imprezy?",
+    "Jesteś XYZ1 i przez przegrany zakład musisz zrobić sobie tatuaż. Co wybierasz i gdzie?",
+    "XYZ przegrał zakład i możesz wytatuować mu cokolwiek tylko chcesz i gdzie chcesz. Co wybierasz?",
+    "Jesteś sobą. Możesz iść na randkę z którymś z sabaków w kobiecej wersji. Kogo wybierasz?",
+    "Jesteś XYZ1 i o 22:00 na lotnisku w Katowicach dowiadujesz się, że Twój lot został odwołany, a następny jest o 7:00 rano. Co robisz?",
+    "Jesteś XYZ1 i dostajesz propozycję zagrania w serialu dowolnej postaci. To może być morderca, superbohater, gorący gej, zbuntowana nastolatka. Kogo wybierasz?",
+    "Jesteś XYZ1 i startujesz na prezydenta Warszawy. Przedstaw swoje najważniejsze postulaty.",
+    "Jesteś XYZ1 i idziesz na pierwsze spotkanie ze skrajnie religijnymi i tradycyjnymi rodzicami swojej dziewczyny. Przekonaj ich do siebie, wymieniając swoje największe zalety.",
+    "Jesteś XYZ1 i dzielisz się swoim największym sekretem. Co mówisz?",
+    "Jesteś XYZ1 i przez przypadek zostajesz uznany w restauracji za krytyka kulinarnego i możesz brać wszystko na koszt właściciela, ale musisz napisać recenzję. Co zamawiasz?",
+    "Jesteś XYZ1 i bierzesz udział w 1 z 10. Zaprezentuj się widzom programu. Zainteresowania i hobby.",
+    "Jesteś sobą. Prowadzisz firmę eventową, a XYZ1 zatrudnia Cię do zorganizowania mu 30 urodzin - daje Ci wolną rękę. Jak to zorganizujesz?",
+    "Jesteś sobą. Przez przypadek razem z XYZ1 odkrywasz nowy pierwiastek. Jak go nazywacie? Pamiętajcie, że będzie w podręcznikach.",
+    "Jesteś sobą. W wyniku zabaw z czarną magią zostaje na Ciebie rzucona klątwa. Możesz żyć dalej jedynie jako czyjeś zwierzę. Kogo wybierasz na właściciela? Nowy właścicielu - jakim zwierzęciem uczynisz XYZ3?"
 ];
