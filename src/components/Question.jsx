@@ -1,4 +1,4 @@
-import { Text } from "@chakra-ui/react";
+import { Flex, Text } from "@chakra-ui/react";
 import { includes } from "ramda";
 import { NAME_OPTIONS, PEOPLE } from "../data/names";
 
@@ -11,10 +11,10 @@ const substitutePlaceholders = (text, picked) => {
             console.log(word, pickedPeople, personIdx);
             const person = pickedPeople[personIdx];
             personIdx += 1;
-            return person[word];
+            return <Text color="teal.600">{person[word]}</Text>;
         }
-        return word;
-    }).join("");
+        return <Text>{word}</Text>;
+    });
 };
 
 export const Question = ({
@@ -29,8 +29,15 @@ export const Question = ({
     } = questions[questionNumber];
 
     return (
-        <Text fontSize="32">
+        <Flex
+            w="100%"
+            flexWrap="wrap"
+            fontSize="48"
+            alignItems="center"
+            justifyContent="center"
+            gap={2}
+        >
             {substitutePlaceholders(text, picked)}
-        </Text>
+        </Flex>
     );
 };

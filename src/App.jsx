@@ -12,7 +12,7 @@ import { useOrders } from './hooks/useOrders';
 import { Question } from "./components/Question";
 import { Answering } from "./components/Answering";
 
-const INITIAL_SECONDS = 10;
+const INITIAL_SECONDS = 20;
 
 const rerollAnswering = (current) => {
   const getKeysWithoutCurrent = compose(without([current]), keys);
