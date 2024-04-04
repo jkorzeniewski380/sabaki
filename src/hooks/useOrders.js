@@ -19,9 +19,9 @@ const parseQuestion = (questionText) => ({
     )
 });
 
-const generateGroups = (P, Q, R, S) => {
+const generateGroups = (A, P, Q, R, S) => {
     const people = Object.keys(PEOPLE);
-    const groupSizes = flatten([repeat(1, P), repeat(2, Q), repeat(3, R), repeat(4, S)]);
+    const groupSizes = flatten([repeat(0, A), repeat(1, P), repeat(2, Q), repeat(3, R), repeat(4, S)]);
     const groups = {};
 
     for (let size of groupSizes) {
@@ -43,13 +43,13 @@ const generateGroups = (P, Q, R, S) => {
 };
 
 const generateGroupsFromParsedQuestions = (parsedQuestions) => {
-    const counts = [0, 0, 0, 0];
+    const counts = [0, 0, 0, 0, 0];
     parsedQuestions.forEach(({ people }) => {
-        counts[people.length - 1]++;
+        counts[people.length]++;
     });
     console.log(counts);
-    const [P, Q, R, S] = counts;
-    return generateGroups(P, Q, R, S);
+    const [A, P, Q, R, S] = counts;
+    return generateGroups(A, P, Q, R, S);
 }
 
 export const useOrders = () => {
@@ -64,7 +64,6 @@ export const useOrders = () => {
             (questionNumber) => parseQuestion(QUESTIONS[questionNumber])
         );
         const groups = generateGroupsFromParsedQuestions(parsedQuestions);
-
         const questionsWithPeople = parsedQuestions.map((parsed) => {
             const size = parsed.people.length;
             const result = {

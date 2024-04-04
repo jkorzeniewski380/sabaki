@@ -19,5 +19,5 @@ export const QUESTIONS = [
     "Jesteś XYZ1 i bierzesz udział w 1 z 10. Zaprezentuj się widzom programu. Zainteresowania i hobby.",
     "Jesteś sobą. Prowadzisz firmę eventową, a XYZ1 zatrudnia Cię do zorganizowania mu 30 urodzin - daje Ci wolną rękę. Jak to zorganizujesz?",
     "Jesteś sobą. Przez przypadek razem z XYZ1 odkrywasz nowy pierwiastek. Jak go nazywacie? Pamiętajcie, że będzie w podręcznikach.",
-    "Jesteś sobą. W wyniku zabaw z czarną magią zostaje na Ciebie rzucona klątwa. Możesz żyć dalej jedynie jako czyjeś zwierzę. Kogo wybierasz na właściciela? Nowy właścicielu - jakim zwierzęciem uczynisz XYZ3?"
+    "Jesteś sobą. W wyniku zabaw z czarną magią zostaje na Ciebie rzucona klątwa. Możesz żyć dalej jedynie jako czyjeś zwierzę. Kogo wybierasz na właściciela? Nowy właścicielu - jakim zwierzęciem uczynisz odpowiadającego?"
 ];

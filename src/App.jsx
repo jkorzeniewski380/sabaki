@@ -90,7 +90,7 @@ function App() {
     resetTime();
   }, [current, resetTime]);
 
-  const isLast = current === QUESTIONS.length - 1;
+  const isLastQuestion = current === QUESTIONS.length - 1;
   return (
     <ChakraProvider>
       <Page>
@@ -110,7 +110,7 @@ function App() {
           alignItems="center"
           direction="column"
         >
-          {isLast ? (
+          {isLastQuestion ? (
             <Text fontSize="48">
               Koniec, czas chlać pajace
             </Text>
