@@ -11,7 +11,7 @@ const substitutePlaceholders = (text, picked) => {
             console.log(word, pickedPeople, personIdx);
             const person = pickedPeople[personIdx];
             personIdx += 1;
-            return <Text color="teal.600">{person[word]}</Text>;
+            return <Text color="cyan.400">{person[word]}</Text>;
         }
         return <Text>{word}</Text>;
     });
