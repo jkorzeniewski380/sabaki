@@ -28,5 +28,12 @@ export const PEOPLE = {
         XYZ1: "Korzeniewskim",
         XYZ2: "Korzeniewskiemu",
         XYZ3: "Korzeniewskiego"
+    },
+    4: {
+        nick: "Jabol",
+        XYZ: "Jabłoński",
+        XYZ1: "Jabłońskim",
+        XYZ2: "Jabłońskiemu",
+        XYZ3: "Jabłońskiego"
     }
 };
